@@ -30,3 +30,37 @@
 *.exe
 *.out
 *.app
+
+# Qt Creator specific files
+*.pro.user
+*.qmake.stash
+
+# Qt build directories
+build-*/
+debug/
+release/
+
+# macOS system files
+.DS_Store
+
+# IDE-specific files
+.vscode/
+.idea/
+cmake-build-*/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage files
+*.gcda
+*.gcno
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
